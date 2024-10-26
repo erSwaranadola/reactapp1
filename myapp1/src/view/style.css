@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+.menu{
+    cursor: pointer;
+}
+.menu:hover
+{
+    padding:10;
+    color:rgb(0, 0, 0);
+    border-bottom-color: rgb(28, 255, 255);
+    border-bottom-style:solid ;
+}
+.inputsearch{
+    width: 90%;
+    height: 60px;
+    border: none;
+}
+.inputsearch:focus {
+    border: none; /* No border */
+    box-shadow: none; /* Remove box shadow */
+}
+.inputsearch {
+    border: none; /* No border */
+    outline: none; /* No outline */
+    font-size: 20px;
+}
+
+.inputsearch:focus {
+    border: none; /* Ensure no border on focus */
+    box-shadow: none; /* Remove any box shadow */
+}
+.product{
+    box-shadow: 1px 1px 10px 0px rgb(40, 38, 38);
+}
